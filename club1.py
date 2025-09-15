@@ -1,6 +1,6 @@
-pos = [0,0]
-maxnum=int(input('N의 값을 입력하시오:'))
-usr=input('R L U D 를 입력하시오: ').upper().split()
+pos = [0,0] #현재위치
+maxnum=int(input('N의 값을 입력하시오:')) #N값
+usr=input('R L U D 를 입력하시오: ').upper().split() #상하좌우를 리스트로 담기
 
 for i in range(len(usr)):
     if usr[i]=='R' and 0<=pos[1]<(maxnum-1):
@@ -14,7 +14,7 @@ for i in range(len(usr)):
 
     elif usr[i]=='D' and 0<=pos[0]<(maxnum-1):
         pos[0]+=1
-#ee
+
 pos[0]+=1
 pos[1]+=1
 
