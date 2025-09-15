@@ -14,7 +14,7 @@ for i in range(len(usr)):
 
     elif usr[i]=='D' and 0<=pos[0]<(maxnum-1):
         pos[0]+=1
-
+#ee
 pos[0]+=1
 pos[1]+=1
 
